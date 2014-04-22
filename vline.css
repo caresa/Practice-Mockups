@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   border: 1px solid red
 }
@@ -7,3 +8,13 @@
   width: 100%;
   position: relative;
 }
+=======
+* {
+	border: 1px solid red
+}
+.container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+>>>>>>> 60335e3c2f9bf7015c9fec3db308e843c9f014c9
