@@ -1,20 +1,60 @@
-<<<<<<< HEAD
-*{
-  border: 1px solid red
-}
 
+/**{
+  border: 1px solid red;
+}*/
+body{
+  margin: 0px;
+  height: 100%
+}
 .container{
   height: 100%;
   width: 100%;
+  margin: 0px;
   position: relative;
 }
-=======
-* {
-	border: 1px solid red
+
+.header{
+  background: #1179ad;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
-.container {
-	height: 100%;
-	width: 100%;
-	position: relative;
+
+.shell{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
->>>>>>> 60335e3c2f9bf7015c9fec3db308e843c9f014c9
+
+.logo{
+  float: left;
+}
+
+  .logo h1{
+    float: left;
+
+  }
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
