@@ -1,8 +1,46 @@
-* {
-	border: 1px solid red
+/** {
+	border: 1px solid red;
+}*/
+body {
+	margin: 0px;
+	height: 100%;
 }
 .container {
 	height: 100%;
 	width: 100%;
+	margin: 0px;
 	position: relative;
+}
+.header {
+	background-color: #1179ad;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.shell {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 4%;
+}
+.logo {
+	margin-left: 10%;
+	float: left;
+}
+ul {
+	list-style-type: none;
+	margin: 0px;
+}
+li {
+	font-size: 20px;
+	display: inline-block;
+	line-height: 60px;
+	vertical-align: middle;
+}
+a {
+	text-decoration: none;
+}
+nav {
 }
