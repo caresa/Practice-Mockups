@@ -1,6 +1,16 @@
 /**{
   border: 1px solid red;
 }*/
+@font-face {
+        font-family: 'icomoon';
+        src:url('fonts/icomoon.eot');
+        src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.woff') format('woff'),
+            url('fonts/icomoon.ttf') format('truetype'),
+            url('fonts/icomoon.svg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
 body{
   margin: 0px;
   height: 100%;
@@ -42,7 +52,41 @@ body{
   margin: 0;
 
 }
-
+:before {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+a {
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 500;
+  font-size: 24px;
+}
+a:hover{
+  color: #83c7e4;
+}
+#developers {
+  font-size: 16px;
+  font-weight: 300;
+  color: #83c7e4;
+}
+#developers:hover {
+  color: white;
+}
+#video_chat{
+  font-size: 16px;
+  font-weight: 300;
+  color: #83c7e4;
+  background-color: #005379;
+}
+#video_chat:hover{
+  color: white;
+}
 
 nav{
   float: right;
@@ -71,6 +115,10 @@ h2{
 
 #video_chat{
   padding-left: 25px;
+}
+
+.icon:before {
+  content: "\e600";
 }
 
 .content{
@@ -151,7 +199,12 @@ p {
   color: #6e8d99;
 }
 p a{
-
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e8d99;
+  text-decoration: underline;
 }
 #Step {
   font-size: 18px;
