@@ -93,9 +93,8 @@ span{
 
 .three_circles{
   clear: both;
-  height: 160px;
-  padding-top: 10px;
-  width: 650px;
+  padding-top: 50px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -118,27 +117,49 @@ span{
   position: relative;
 }
 #scissors {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background: #007bad;
   border-radius: 165px;
   margin: 0 auto;
 }
 #paper {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background: #007bad;
   border-radius: 165px;
   margin: 0 auto;
 }
 #tv {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background: #007bad;
   border-radius: 165px;
   margin: 0 auto;
 }
+p {
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e8d99;
+}
+p a{
 
+}
+#Step {
+  font-size: 18px;
+  line-height: 0px;
+  color: #0082b7;
+}
+.arrow {
+  background-image: url('https://vline.com/s/img/home-arrow@2x-bbadf63d.png');
+  background-size: 168px 40px;
+  background-repeat: no-repeat;
+  width: 168px;
+  height: 200px;
+  display: inline-block;
+}
 .video_chat_button{
   display: block;
   text-align: center;
@@ -157,20 +178,5 @@ span{
   width: 400px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 200px;
-}
-p {
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6e8d99;
-}
-p a{
-
-}
-#Step {
-  font-size: 18px;
-  line-height: 0px;
-  color: #0082b7;
+  margin-top: 50px;
 }
