@@ -4,12 +4,16 @@
 }*/
 body{
   margin: 0px;
-  height: 100%
+  height: 100%;
 }
+
 .container{
   height: 100%;
   width: 100%;
   margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 400px;
+  background: #d7f5fd;
   position: relative;
 }
 
@@ -17,6 +21,7 @@ body{
   background: #1179ad;
   height: 60px;
   width: 100%;
+  min-width: 610px;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,18 +30,24 @@ body{
 
 .shell{
   max-width: 940px;
+  height: 60px;
   margin: 0 auto;
   padding: 0 4%;
 }
 
 .logo{
   float: left;
+  font-size: 25px;
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+
 }
 
-  .logo h1{
-    float: left;
 
-  }
+nav{
+  float: right;
+}
 
 ul{
   list-style-type: none;
@@ -55,6 +66,59 @@ a{
   text-decoration: none;
 }
 
+h2{
+  margin-top: 10%;
+}
 
+#video_chat{
+  padding-left: 25px;
+}
 
+.content{
+  text-align: center;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: bold;
+}
 
+  .content h2{
+    font-size: 30px;
+    line-height: 1px;
+  }
+
+span{
+  font-size: 14px;
+  color: #666;
+}
+
+.three_circles{
+  clear: both;
+  height: 160px;
+  padding-left: 52px;
+  padding-top: 10px;
+}
+
+.copy{
+  width: 244px;
+  height: 160px;
+  float: left;
+  text-align: center;
+}
+
+.paste {
+  width: 244px;
+  height: 160px;
+  float: left;
+  text-align: center;
+}
+
+.video_chat{
+  width: 244px;
+  height: 160px;
+  float: left;
+  text-align: center;
+}
+
+.video_chat_button{
+  text-align: center;
+  clear: both;
+}
