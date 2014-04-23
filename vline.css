@@ -83,6 +83,8 @@ a:hover{
   font-weight: 300;
   color: #83c7e4;
   background-color: #005379;
+  border-radius: 15px;
+  padding: 5px 15px;
 }
 #video_chat:hover{
   color: white;
