@@ -71,20 +71,22 @@ a:hover{
   color: #83c7e4;
 }
 #developers {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
   color: #83c7e4;
+  padding-right: 10px;
 }
 #developers:hover {
   color: white;
 }
 #video_chat{
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
   color: #83c7e4;
   background-color: #005379;
   border-radius: 15px;
   padding: 5px 15px;
+  vertical-align: middle;
 }
 #video_chat:hover{
   color: white;
@@ -113,10 +115,6 @@ a{
 
 h2{
   margin-top: 9%;
-}
-
-#video_chat{
-  padding-left: 25px;
 }
 
 .icon:before {
@@ -231,7 +229,6 @@ p a{
   font-weight: 500;
   font-size: 18px;
   background: #45ad3a;
-  border-radius: 0;
   box-shadow: none;
   cursor: pointer;
   vertical-align: top;
